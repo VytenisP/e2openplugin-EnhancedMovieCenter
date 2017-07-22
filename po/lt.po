@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: EMC\n"
+"Project-Id-Version: EMC - betonme git\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-21 13:32+0300\n"
-"PO-Revision-Date: 2017-06-21 15:06+0300\n"
+"POT-Creation-Date: 2017-07-22 08:43+0300\n"
+"PO-Revision-Date: 2017-07-22 08:50+0300\n"
 "Last-Translator: Vytenis P. <vyteniui@gmail.com>\n"
 "Language-Team: Vytenis P. <vyteniui@gmail.com>\n"
 "Language: lt\n"
@@ -37,6 +37,7 @@ msgid "three contiguous"
 msgstr "trys gretutiniai"
 
 #: EMCCoverSearch.py:52
+#| msgid "imdb.de"
 msgid "imdb.com"
 msgstr "imdb.com"
 
@@ -57,6 +58,7 @@ msgid "themoviedb.org"
 msgstr "themoviedb.org"
 
 #: EMCCoverSearch.py:52
+#| msgid "themoviedb.org"
 msgid "themoviedb.org + thetvdb.com"
 msgstr "themoviedb.org + thetvdb.com"
 
@@ -78,15 +80,15 @@ msgstr "paprastas viršelis"
 
 #: EMCCoverSearch.py:56
 msgid ".../foldername/foldername.jpg"
-msgstr ".../katal_pavad/katal_pavad.jpg"
+msgstr ".../katalogo_pavad/katalogo_pavad.jpg"
 
 #: EMCCoverSearch.py:56
 msgid ".../foldername.jpg"
-msgstr ".../katal_pavad.jpg"
+msgstr ".../katalogo_pavad.jpg"
 
 #: EMCCoverSearch.py:56
 msgid ".../foldername/folder.jpg"
-msgstr ".../katal_pavad/katlogas.jpg"
+msgstr ".../katalogo_pavad/katlogas.jpg"
 
 #: EMCCoverSearch.py:209
 msgid "Search"
@@ -611,7 +613,7 @@ msgstr "'RAUDONO' mygtuko ilgas paspaudimas"
 
 #: EnhancedMovieCenter.py:351
 msgid "HELP_Long Red button function"
-msgstr "Nustatykite, kas vyks, ilgai spaudžiant 'RAUDONĄ' mygtuką."
+msgstr "Nustatykite, kas vyks, ilgai laikant paspaudus 'RAUDONĄ' mygtuką."
 
 #: EnhancedMovieCenter.py:354
 msgid "Yellow button function"
@@ -627,7 +629,7 @@ msgstr "'GELTONO' mygtuko ilgas paspaudimas"
 
 #: EnhancedMovieCenter.py:355
 msgid "HELP_Long Yellow button function"
-msgstr "Nustatykite, kas vyks, ilgai spaudžiant 'GELTONĄ' mygtuką."
+msgstr "Nustatykite, kas vyks, ilgai laikant paspaudus 'GELTONĄ' mygtuką."
 
 #: EnhancedMovieCenter.py:356
 msgid "Blue button function"
@@ -643,7 +645,7 @@ msgstr "'MĖLYNO' mygtuko ilgas paspaudimas"
 
 #: EnhancedMovieCenter.py:357
 msgid "HELP_Long Blue button function"
-msgstr "Nustatykite, kas vyks, ilgai spaudžiant 'MĖLYNĄ' mygtuką."
+msgstr "Nustatykite, kas vyks, ilgai laikant paspaudus 'MĖLYNĄ' mygtuką."
 
 #: EnhancedMovieCenter.py:359 EnhancedMovieCenter.py:366
 #: EnhancedMovieCenter.py:375 EnhancedMovieCenter.py:413
@@ -658,23 +660,23 @@ msgstr "Kasdienis autopaleidimas"
 
 #: EnhancedMovieCenter.py:360
 msgid "HELP_Daily auto-start"
-msgstr "Leidžia kasdieną atlikti operacijas nurodytu joms metu"
+msgstr "Kasdienis autopaleidimas"
 
 #: EnhancedMovieCenter.py:361
 msgid "auto-start window begin"
-msgstr "autopaleidimo pradžios langas"
+msgstr "autopaleidimo lango pradžia"
 
 #: EnhancedMovieCenter.py:361
 msgid "HELP_auto-start window begin"
-msgstr "Langų autopaleidimo pradžios laikas"
+msgstr "E2 autopaleidimo iš naujo laiko lango pradžia."
 
 #: EnhancedMovieCenter.py:362
 msgid "auto-start window end"
-msgstr "autopaleidimo pabaigos langas"
+msgstr "autopaleidimo lango pabaiga"
 
 #: EnhancedMovieCenter.py:362
 msgid "HELP_auto-start window end"
-msgstr "Langų autopaleidimo pabaigos laikas"
+msgstr "E2 autopaleidimo iš naujo laiko lango pabaiga."
 
 #: EnhancedMovieCenter.py:363
 msgid "Force standby after auto-restart"
@@ -690,7 +692,7 @@ msgstr "'INFO' mygtuko ilgas paspaudimas"
 
 #: EnhancedMovieCenter.py:364
 msgid "HELP_LongInfo Button"
-msgstr "Nustatykite, kas vyks, ilgai spaudžiant 'Info' mygtuką."
+msgstr "Nustatykite, kas vyks, ilgai laikant paspaudus 'Info' mygtuką."
 
 #: EnhancedMovieCenter.py:367
 msgid "Movie home at start"
@@ -746,7 +748,7 @@ msgstr "Rodyti nuorodas"
 
 #: EnhancedMovieCenter.py:376
 msgid "HELP_Show symlinks"
-msgstr "Rodyti/slėpti simbolines nuorodas"
+msgstr "Rodyti simbolines nuorodas"
 
 #: EnhancedMovieCenter.py:378
 msgid "Show directories"
@@ -770,7 +772,7 @@ msgstr "Sukonfigūruoti katalogai filmų sąrašo viršuje"
 
 #: EnhancedMovieCenter.py:380
 msgid "HELP_Configure in etc\\enigma2\\emc-topdir.cfg"
-msgstr "Kelias į /etc/enigma2/emc-topdir.cfg konfigūravimo failą"
+msgstr "Priėjimas prie /etc/enigma2/emc-topdir.cfg konfigūravimo"
 
 #: EnhancedMovieCenter.py:381
 msgid "Show directories information"
@@ -869,7 +871,7 @@ msgstr "Filmų sąraše rodyti mėgstamus"
 
 #: EnhancedMovieCenter.py:393
 msgid "HELP_Show Bookmarks in movielist"
-msgstr "Filmų sąraše rodyti/slėpti mėgstamus"
+msgstr "Filmų sąraše rodyti mėgstamus, ar ne."
 
 #: EnhancedMovieCenter.py:394
 msgid "Use cache for files and directories"
@@ -910,9 +912,8 @@ msgstr "Apriboti operacijas su failais kataloguose iš emc-noscan.cfg"
 #: EnhancedMovieCenter.py:398
 msgid "HELP_Limit file operations in dirs from emc-noscan.cfg"
 msgstr ""
-"Įjungus čia, atvertas EMC, vengs operacijų su failais kataloguose, "
-"esančiuose\n"
-"/etc/enigma2/emc-noscan.cfg"
+"Atvertas EMC, vengs operacijų su failais kataloguose, esančiuose\n"
+"'/etc/enigma2/emc-noscan.cfg'"
 
 #: EnhancedMovieCenter.py:399
 msgid "After file OPs only re-scan affected dirs"
@@ -1075,8 +1076,7 @@ msgid "HELP_Show Cut-Nr if exist"
 msgstr ""
 "Jei įrašymo metu Enigma2 pasileis iš naujo, įrašymas bus tęsiamas "
 "automatiškai, failo pavadinimo gale pridedant skaitmenį.\n"
-"T.y., čia įjungus, prie pavadinimo, nutraukus ir pratęsus įrašą, pridedamas "
-"skaičius."
+"T.y., čia įjungus, prie pavadinimo pridedamas skaičius."
 
 #: EnhancedMovieCenter.py:420
 msgid "Resolve links and show real path"
@@ -1293,7 +1293,7 @@ msgstr "Slėpti mažąjį ekraną"
 
 #: EnhancedMovieCenter.py:451
 msgid "HELP_hide_miniTV"
-msgstr "Nurodo situacijas, kada turi būti paslėptas mažasis ekranas"
+msgstr "Rodyti, ar slėpti mažąjį TV ekraną"
 
 #: EnhancedMovieCenter.py:455
 msgid "Method of hiding mini TV"
@@ -1301,11 +1301,7 @@ msgstr "Mažojo ekrano slėpimo būdas"
 
 #: EnhancedMovieCenter.py:455
 msgid "HELP_hide_miniTV_method"
-msgstr ""
-"Pasirenkamas mažojo ekrano slėpimo būdas.\n"
-"Panaudotinas, pvz., kai Gigablue Quad iškraipo teisingą kraštinių santykį.\n"
-"Tiesioginė transliacija nebus nutraukta, bet miniTV alternatyviai sumažins "
-"pikselių skaičių"
+msgstr "Pasirenkamas mažojo ekrano slėpimo būdas."
 
 #: EnhancedMovieCenter.py:460
 msgid "No resume below 10 seconds"
@@ -1845,7 +1841,7 @@ msgstr "Atkūrimas tęsiamas"
 
 #: MovieCenter.py:843
 msgid "OSError - please reload list (EMC menu)"
-msgstr "OS klaida - įkelkite sąrašą iš naujo (per EMC meniu)"
+msgstr "OS klaida - įkelkite sąrašą iš naujo (EMC meniu)"
 
 #: MovieCenter.py:1059
 msgid "trashcan"
@@ -3054,7 +3050,7 @@ msgstr "Pagal progresą mažėjančiai (P-)"
 
 #: plugin.py:300
 msgid "after standby"
-msgstr "po budėjimo režimo"
+msgstr "po budėjimo"
 
 #: plugin.py:309
 msgid "never hide"
@@ -3070,11 +3066,11 @@ msgstr "slėpti tiesioginę TV ir laiko poslinkį"
 
 #: plugin.py:309
 msgid "hide playback"
-msgstr "slėpti įrašų atkūrimą"
+msgstr "slėpti atkūrimą"
 
 #: plugin.py:309
 msgid "always hide"
-msgstr "visada slėpti"
+msgstr "slėpti visada"
 
 #: plugin.py:310
 msgid "stop service"
@@ -3102,7 +3098,7 @@ msgstr "dešinė"
 
 #: plugin.py:322 plugin.py:370
 msgid "left"
-msgstr "kairėje"
+msgstr "kairė"
 
 #: plugin.py:327
 msgid "Yes, without Message"
@@ -3206,52 +3202,190 @@ msgstr "konfigūracija"
 msgid "movie manipulation list"
 msgstr "filmų manipuliavimo sąrašas"
 
-msgid "HELP_Sort file A to Z at startup"
-msgstr "The MovieList will be sorted alphabetically."
+#, fuzzy
+#~| msgid "Sort file A to Z at startup"
+#~ msgid "HELP_Sort file A to Z at startup"
+#~ msgstr "Sortiere Filmliste A bis Z beim Start"
 
-msgid "HELP_File order reverse"
-msgstr ""
-"The MovieList will be reverse sorted.\n"
-"No matter if chronologically or alphabetically mode is selected. "
+#~ msgid "HELP_File order reverse"
+#~ msgstr ""
+#~ "Die Filmliste wird immer in Umgekehrter Reihenfolge sortiert,\n"
+#~ "egal ob nach Datum oder Alphabet sortiert wird. "
 
-msgid "HELP_Show E2 Bookmarks in movielist"
-msgstr ""
-"Display virtual folders in your \"Movie home\" representing your Enigma2 "
-"Bookmarks."
+#~ msgid "HELP_Show E2 Bookmarks in movielist"
+#~ msgstr ""
+#~ "Zeigt virtuelle Verzeichnisse in \"Movie Home\" mit allen Enigma2 "
+#~ "Lesezeichen."
 
-msgid "HELP_Enigma daily auto-restart"
-msgstr "Enigma2 will be restarted daily during the defined time frame."
+#~ msgid "HELP_Enigma daily auto-restart"
+#~ msgstr ""
+#~ "Enigma2 wird täglich im eingestellten Zeitfenster einmal neu gestartet."
 
-msgid "HELP_Enigma auto-restart window begin"
-msgstr "Start of the time frame for the automatic Enigma2 restart."
+#, fuzzy
+#~| msgid "HELP_auto-start window begin"
+#~ msgid "HELP_Enigma auto-restart window begin"
+#~ msgstr "E2 autopaleidimo iš naujo laiko lango pradžia."
 
-msgid "HELP_Enigma auto-restart window end"
-msgstr "End of the time frame for the automatic Enigma2 restart."
+#, fuzzy
+#~| msgid "HELP_auto-start window end"
+#~ msgid "HELP_Enigma auto-restart window end"
+#~ msgstr "E2 autopaleidimo iš naujo laiko lango pabaiga."
 
-msgid "HELP_Force standby after auto-restart"
-msgstr ""
-"After the automatic Enigma2 restart, the Dreambox will be switched to "
-"Standby."
+#, fuzzy
+#~| msgid "HELP_Force standby after auto-start"
+#~ msgid "HELP_Force standby after auto-restart"
+#~ msgstr "Po autopaleidimo iš naujo imtuvas bus perjungtas į budėjimo būseną."
 
-msgid "HELP_Scan for Movie Structures"
-msgstr ""
-"Disable the parsing for Movie-structures in all directories.\n"
-"This avoids unwanted wake up of (network)disks."
-
-#~ msgid ".../title/title.jpg"
-#~ msgstr ".../title/title.jpg"
-
-#~ msgid ".../title.jpg"
-#~ msgstr ".../title.jpg"
-
-#~ msgid "imdb.de"
-#~ msgstr "imdb.de"
+#, fuzzy
+#~| msgid "HELP_Scan for movie structures"
+#~ msgid "HELP_Scan for Movie Structures"
+#~ msgstr ""
+#~ "Leidžia išjungti filmų struktūros nuskaitymą kataloguose.\n"
+#~ "Išjungus, išvengiama nepageidaujamų (tinklo) diskų pabudimų."
 
 #~ msgid "Search site set to: %s"
 #~ msgstr "Paieškos svetainė nustatyta: %s"
+
+#~ msgid "themoviedb cover resolution:"
+#~ msgstr "themoviedb viršelių rezoliucija:"
 
 #~ msgid "covers"
 #~ msgstr "viršeliai"
 
 #~ msgid "EMC Playlist"
 #~ msgstr "EMC grojaraštis"
+
+#~ msgid "Show new Skin Version"
+#~ msgstr "Rodyti naują temos versiją"
+
+#~ msgid "Runtime: unknown"
+#~ msgstr "Trukmė: nežinoma"
+
+#~ msgid "ofdb.de"
+#~ msgstr "ofdb.de"
+
+#~ msgid "Searching.."
+#~ msgstr "Ieškoma..."
+
+#~ msgid "Delay of 10 sec. due the search flooding.."
+#~ msgstr "Dėl didelio paieškos apkrovimo 10 sek. delsa..."
+
+#~ msgid "Nothing found for %s"
+#~ msgstr "Pagal %s nieko nerasta"
+
+#~ msgid ""
+#~ " movies found!\n"
+#~ "Information of the best match\n"
+#~ "\n"
+#~ "\""
+#~ msgstr ""
+#~ " rasti filmai!\n"
+#~ "Labiausiai atitikusi informacija\n"
+#~ "\n"
+#~ "\""
+
+#~ msgid "Copy selected movie(s)"
+#~ msgstr "Kopijuoti pasirinktą(-us) filmą(-us)"
+
+#~ msgid "Delete file or empty dir"
+#~ msgstr "Ištrinkite failą, arba ištuštinkite katalogą"
+
+#~ msgid "customizable long yellow button"
+#~ msgstr "pasirenkamas 'GELTONAS' mygtukas (ilgai)"
+
+#~ msgid "customizable long blue button"
+#~ msgstr "pasirenkamas 'MĖLYNAS' mygtukas (ilgai)"
+
+#~ msgid ""
+#~ "Movie home / Play last / Move file / Download Movie Information "
+#~ "(configurable)"
+#~ msgstr ""
+#~ "Filmų katalogas / Atkurti paskutinį / Parsiųsti informaciją apie filmą "
+#~ "(konfigūr.)"
+
+#~ msgid "Toggle sort order"
+#~ msgstr "Sukeisti rūšiavimo tvarką"
+
+#~ msgid "Total: %s - Exist: %s - N/A: %s"
+#~ msgstr "Iš viso: %s - Rasta: %s - N/D: %s"
+
+#~ msgid "found %s covers in %.1f sec"
+#~ msgstr "rasta %s viršelių per %.1f sek."
+
+#~ msgid " (P)"
+#~ msgstr " (P)"
+
+#~ msgid "Blue"
+#~ msgstr "Mėlyna"
+
+#~ msgid "Create Link: Choose directory"
+#~ msgstr "Kurti nuorodą: pasirinkite katalogą"
+
+#~ msgid "Directory "
+#~ msgstr "Katalogas"
+
+#~ msgid "Directory is not empty."
+#~ msgstr "Katalogas netuščias."
+
+#~ msgid "Enigma daily auto-restart"
+#~ msgstr "Täglicher Enigma2-Auto-Neustart"
+
+#~ msgid "File order reverse"
+#~ msgstr "Dateisortierung umkehren"
+
+#~ msgid "Green button function"
+#~ msgstr "Funktion der grünen Taste"
+
+#~ msgid "HELP_Green button function"
+#~ msgstr ""
+#~ "Der grünen Taste kann eine zur Auswahl stehenden Funktion zugeordnet "
+#~ "werden."
+
+#~ msgid "HELP_Show movie preview delay"
+#~ msgstr ""
+#~ "Verweilt der Cursor die eingestellte Zeit auf der Aufnahme, wird im PiG "
+#~ "die Aufnahme abgespielt."
+
+#~ msgid "HELP_Use Toggle Cover Button"
+#~ msgstr ""
+#~ "Hiermit kann in der Filmauswahl die Anzeige von Covers ein- oder "
+#~ "ausgeschaltet werden."
+
+#~ msgid "Move"
+#~ msgstr "Verschieben"
+
+#~ msgid "Move file(s): Choose directory"
+#~ msgstr "Verschiebe Datei(en): Wähle Verzeichnis"
+
+#~ msgid "Move selected movie(s)"
+#~ msgstr "Ausgewählte Film(e) verschieben"
+
+#~ msgid "Red"
+#~ msgstr "Rot"
+
+#~ msgid "Show E2 Bookmarks in movielist"
+#~ msgstr "E2-Lesezeichen in Filmliste anzeigen"
+
+#~ msgid "Toggle Cover Mini-TV"
+#~ msgstr "Coveranzeige ein/aus"
+
+#~ msgid "Yellow"
+#~ msgstr "Gelb"
+
+#~ msgid "customizable buttonblue "
+#~ msgstr "Einstellung blaue Taste"
+
+#~ msgid "customizable green button"
+#~ msgstr "Einstellung grüne Taste"
+
+#~ msgid "customizable yellow button"
+#~ msgstr "Einstellung gelbe Taste"
+
+#~ msgid ".../title/title.jpg"
+#~ msgstr ".../title/title.jpg"
+
+#~ msgid "Enhanced Movie Center configuration"
+#~ msgstr "'Enhanced Movie Center' konfigūravimas"
+
+#~ msgid "Bluray"
+#~ msgstr "Blu-ray"
